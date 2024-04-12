@@ -6,5 +6,8 @@
         "astronomyPhoto":"Օրվա Աստղագիտական Նկարը",
         "nearbyAsteroid":"Մոտակա Աստերոիդներ",
         "submitPlanet":"Հաստատել Նոր Մոլորակ"
+    },
+    "dayPhoto":{
+        "search":"փնտրել"
     }
 }

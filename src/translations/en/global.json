@@ -6,5 +6,8 @@
         "astronomyPhoto":"Astronomy Photo Of The Day",
         "nearbyAsteroid":"Nearby Asteroids",
         "submitPlanet":"Submit New Planet"
+    },
+    "dayPhoto":{
+        "search":"search"
     }
 }

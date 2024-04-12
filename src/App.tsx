@@ -1,5 +1,8 @@
-import Header from "./Components/Header/Header"
-import NavBar from "./Components/NavBar/NavBar"
+
+// import Header from "./Components/Header/Header"
+// import NavBar from "./Components/NavBar/NavBar"
+import Router from "./router"
+
 
 
 function App() {
@@ -7,9 +10,8 @@ function App() {
 
   return (
     <> 
-     <Header/>
-     <NavBar/>
-
+    
+<Router/>
        
     
     </>
