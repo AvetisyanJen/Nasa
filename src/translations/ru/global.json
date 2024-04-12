@@ -1,0 +1,10 @@
+{
+    "header":{
+        "title":"NASA Браузер"
+    },
+    "navBar":{
+        "astronomyPhoto":"Астрономическое Фото Дня",
+        "nearbyAsteroid":"Ближайшие Астероиды",
+        "submitPlanet":"Подтвердить Новую Планету"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "header":{
+        "title":"NASA Բրաուզեր"
+    },
+    "navBar":{
+        "astronomyPhoto":"Օրվա Աստղագիտական Նկարը",
+        "nearbyAsteroid":"Մոտակա Աստերոիդներ",
+        "submitPlanet":"Հաստատել Նոր Մոլորակ"
+    }
+}
