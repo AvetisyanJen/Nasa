@@ -9,6 +9,7 @@
         width: 3.5rem;
     }
 }
+
 .lang {
     display: flex;
     flex-direction: row;
@@ -26,4 +27,14 @@
         }
     }
 
+}
+
+.content {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    max-width: 70vw;
 }

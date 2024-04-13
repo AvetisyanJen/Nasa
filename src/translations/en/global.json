@@ -9,5 +9,15 @@
     },
     "dayPhoto":{
         "search":"search"
+    },
+    "nearbyAsteroid":{
+        "title":"Search for Asteroids based on their closest approach date to Earth",
+        "info":"You could select the range maximum for 7 days",
+        "startDate":"Start Date",
+        "endDate":"End Date",
+        "search":"search",
+        "range":"Range is bigger then 7"
+        
+       
     }
 }
