@@ -8,9 +8,9 @@ const NavBar: React.FC = () => {
     return (
         <header className='navbar'>
             <ul className='nav'>
-                <Link to='/photo'>{t("navBar.astronomyPhoto")}</Link>
-                <Link to='/asteroid'>{t("navBar.nearbyAsteroid")}</Link>
-                <Link to='/planet'>{t("navBar.submitPlanet")} </Link>
+                <Link to='/nasa_photo'>{t("navBar.astronomyPhoto")}</Link>
+                <Link to='/nearby_asteroids'>{t("navBar.nearbyAsteroid")}</Link>
+                <Link to='/submit_new_planet'>{t("navBar.submitPlanet")} </Link>
             </ul>
         </header>
     )

@@ -21,8 +21,30 @@
         "distance":"Distance (km)",
         "magnitude":"Absolute Magnitude",
         "diameter":"Diameter(m)",
-        "hazardous":"Is Potentially Hazardous"
+        "hazardous":"Is Potentially Hazardous",
+        "yes":"Yes",
+        "no":"No"
         
        
+    },
+    "submitPlanet":{
+        "description":"If you find a new planet, you can add it to our catalog (reactive forms demo)",
+        "planetName":"Planet Name",
+        "diameter":"Diameter (km)",
+        "distance":"Distance (km)",
+        "yourName":"Your Name",
+        "galaxyName":"Galaxy name",
+        "submit":"Submit",
+        "nameValid":"Min length is 16 symbols",
+        "galaxyRequired":"Galaxy field is required",
+        "emailValid":"Please Enter Valid Email",
+        "yourNameRequired":"Your Name field is required",
+        "distanceRequired":"Distance field is required",
+        "diameterRequired":"Diameter field is required"
+       
+       
+        
+
+        
     }
 }

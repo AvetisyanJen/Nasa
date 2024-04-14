@@ -17,9 +17,9 @@ const Router:React.FC=()=>{
 
                 <Route path="/" element={<Home />} />
            
-                    <Route path="/photo" element={<PhotoDay/>}/>
-                    <Route path="/asteroid" element={<Asteroids/>}/>
-                    <Route path="/planet" element={<SubmitPlanet/>} />
+                    <Route path="/nasa_photo" element={<PhotoDay/>}/>
+                    <Route path="/nearby_asteroids" element={<Asteroids/>}/>
+                    <Route path="/submit_new_planet" element={<SubmitPlanet/>} />
                  
           
            </Routes>

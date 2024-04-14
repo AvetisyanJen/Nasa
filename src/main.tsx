@@ -19,7 +19,7 @@ i18next.init({
 
 
 createRoot(document.getElementById('root') as HTMLElement).render(
-  // <BrowserRouter>
+ 
     <I18nextProvider i18n={i18next}>
       <App />
     </I18nextProvider>,

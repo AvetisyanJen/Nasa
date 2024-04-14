@@ -14,6 +14,7 @@ export interface Asteroid {
     };
     is_potentially_hazardous_asteroid: boolean;
 }
+
 export interface PhotoDayData {
     title: string;
     url: string;
@@ -21,6 +22,13 @@ export interface PhotoDayData {
     explanation: string;
 }
 
-
+export interface FormData {
+    planetName: string;
+    galaxy: string;
+    diameter: number;
+    distance: number;
+    name: string;
+    email: string;
+  }
 
 
