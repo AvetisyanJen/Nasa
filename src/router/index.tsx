@@ -15,7 +15,7 @@ const Router:React.FC=()=>{
         <NavBar/>
             <Routes>
 
-                <Route path="/" element={<Home />} />
+                    <Route path="/Nasa" element={<Home />} />
            
                     <Route path="/nasa_photo" element={<PhotoDay/>}/>
                     <Route path="/nearby_asteroids" element={<Asteroids/>}/>
