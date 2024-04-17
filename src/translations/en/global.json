@@ -1,52 +1,44 @@
 {
-    "header":{
-        "title":"NASA Browser"
+    "header": {
+        "title": "NASA Browser"
     },
-    "navBar":{
-        "astronomyPhoto":"Astronomy Photo Of The Day",
-        "nearbyAsteroid":"Nearby Asteroids",
-        "submitPlanet":"Submit New Planet"
+    "navBar": {
+        "astronomyPhoto": "Astronomy Photo Of The Day",
+        "nearbyAsteroid": "Nearby Asteroids",
+        "submitPlanet": "Submit New Planet"
     },
-    "dayPhoto":{
-        "search":"search"
+    "dayPhoto": {
+        "search": "search"
     },
-    "nearbyAsteroid":{
-        "title":"Search for Asteroids based on their closest approach date to Earth",
-        "info":"You could select the range maximum for 7 days",
-        "startDate":"Start Date",
-        "endDate":"End Date",
-        "search":"search",
-        "range":"Range is bigger then 7",
-        "name":"Name",
-        "distance":"Distance (km)",
-        "magnitude":"Absolute Magnitude",
-        "diameter":"Diameter(m)",
-        "hazardous":"Is Potentially Hazardous",
-        "yes":"Yes",
-        "no":"No",
-        "loading":"Loading"
-        
-       
+    "nearbyAsteroid": {
+        "title": "Search for Asteroids based on their closest approach date to Earth",
+        "info": "You could select the range maximum for 7 days",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "search": "search",
+        "range": "Range is bigger then 7",
+        "name": "Name",
+        "distance": "Distance (km)",
+        "magnitude": "Absolute Magnitude",
+        "diameter": "Diameter(m)",
+        "hazardous": "Is Potentially Hazardous",
+        "yes": "Yes",
+        "no": "No",
+        "loading": "Loading"
     },
-    "submitPlanet":{
-        "description":"If you find a new planet, you can add it to our catalog (reactive forms demo)",
-        "planetName":"Planet Name",
-        "diameter":"Diameter (km)",
-        "distance":"Distance (km)",
-        "yourName":"Your Name",
-        "galaxyName":"Galaxy name",
-        "submit":"Submit",
-        "nameValid":"Min length is 16 symbols",
-        "galaxyRequired":"Galaxy field is required",
-        "emailValid":"Please Enter Valid Email",
-        "yourNameRequired":"Your Name field is required",
-        "distanceRequired":"Distance field is required",
-        "diameterRequired":"Diameter field is required"
-   
-       
-       
-        
-
-        
+    "submitPlanet": {
+        "description": "If you find a new planet, you can add it to our catalog (reactive forms demo)",
+        "planetName": "Planet Name",
+        "diameter": "Diameter (km)",
+        "distance": "Distance (km)",
+        "yourName": "Your Name",
+        "galaxyName": "Galaxy name",
+        "submit": "Submit",
+        "nameValid": "Min length is 16 symbols",
+        "galaxyRequired": "Galaxy field is required",
+        "emailValid": "Please Enter Valid Email",
+        "yourNameRequired": "Your Name field is required",
+        "distanceRequired": "Distance field is required",
+        "diameterRequired": "Diameter field is required"
     }
 }

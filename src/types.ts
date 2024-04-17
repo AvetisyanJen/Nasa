@@ -29,6 +29,6 @@ export interface FormData {
     distance: number;
     name: string;
     email: string;
-  }
+}
 
 
