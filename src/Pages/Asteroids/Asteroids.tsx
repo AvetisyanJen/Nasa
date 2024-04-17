@@ -13,7 +13,7 @@ const Asteroids: React.FC = () => {
     const [t] = useTranslation("global");
     const [error, setError] = useState<boolean>(false);
     const [loading, setLoading] = useState<boolean>(false);
-    const [asteroidData, setAsteroidData] =useState<Asteroid[]>([]);
+    const [asteroidData, setAsteroidData] = useState<Asteroid[]>([]);
 
     const onSearch = async (startDate: Date, endDate: Date) => {
         try {
@@ -60,9 +60,9 @@ const Asteroids: React.FC = () => {
                 />
                 <button className="search" onClick={() => onSearch(startDate, endDate)}>{t("nearbyAsteroid.search")}</button>
             </div>
-            {loading && <p>Loading...</p>}
-            {error ? <p className="alert">{t("nearbyAsteroid.range")}</p> :
-            <AsteroidData asteroidData={asteroidData} />}
+            {loading && <p className="loading">{t("nearbyAsteroid.loading")}...</p>}
+            {error ? <p className="alert">{t("nearbyAsteroid.range")}</p> : <div className="content">
+                <AsteroidData asteroidData={asteroidData} /> </div>}
         </div>
     )
 }
